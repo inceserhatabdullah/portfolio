@@ -67,6 +67,6 @@
   }
 
   .experience_content {
-    padding: 1rem;
+    gap: 1rem;
   }
 }

@@ -57,13 +57,15 @@
 
 .about_card small {
     font-size: .7rem;
-    color:var(--color-light);
+    color: var(--color-light);
     justify-content: space-between;
 }
 
 .about_content p {
     margin: 2rem 0 2.6rem;
     color: var(--color-light);
+    font-size: .9rem;
+    text-align: justify
 }
 
 
@@ -73,37 +75,38 @@
     .about_me {
         width: 65%;
         margin: 0 auto 3rem;
-      }
+    }
 
-      .about_cards {
+    .about_cards {
         grid-template-columns: 1fr 1fr;
         gap: 1rem
-      }
+    }
 
-      .about_content {
+    .about_content {
         text-align: center;
-      }
+    }
 
-      .about_content p {
+    .about_content p {
         margin: 1.5rem 0;
-      }
-  }
-  
-  /* ######################### MEDIA QUERIES (MEDIUM DEVICES) ##################################### */
-  
-  @media screen and (max-width: 1024px) {
-  .about_container {
-    grid-template-columns: 1fr;
-    gap: 0;
-  }
+        font-size: .8rem;
+    }
+}
 
-  .about_me {
-    width: 50%;
-    margin: 2rem auto 4rem;
-  }
-  
-  .about_content p {
-    margin: 1rem 0 1.5rem;
-  }
-  }
+/* ######################### MEDIA QUERIES (MEDIUM DEVICES) ##################################### */
+
+@media screen and (max-width: 1024px) {
+    .about_container {
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
+
+    .about_me {
+        width: 50%;
+        margin: 2rem auto 4rem;
+    }
+
+    .about_content p {
+        margin: 1rem 0 1.5rem;
+    }
+}
   
