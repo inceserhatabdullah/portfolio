@@ -1,4 +1,4 @@
-import { properties, toUpperCaseFirstCase } from "./../../configuration/config";
+import { properties, toUpperCaseFirstCase } from "../../configuration/config";
 
 const aboutDatas = [
   {

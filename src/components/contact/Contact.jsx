@@ -2,7 +2,7 @@ import React from "react";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
 import "./contact.css";
-import { properties } from "./../../configuration/config";
+import { properties } from "../../configuration/config";
 import {
   contactInput,
   contactInputTemplate,
