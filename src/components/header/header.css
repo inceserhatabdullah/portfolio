@@ -44,7 +44,7 @@ header {
     height: 60vh;
     margin: 5.5rem 10rem;
     left: calc(50% - 39rem);
-    position: absolute;
+    position: relative;
     padding: .8rem 14.5rem;
     width: 60rem;
 }
@@ -73,11 +73,13 @@ header {
     }
 
     .me {
+        height: 30vh;
         margin: 3rem 1rem 3rem 0;
         left: calc(50% - 10rem);
         padding: .8rem 1.5rem .8rem 1rem;
         width: 20rem;
         overflow: hidden;
+        line-height: 0;
     }
 }
 
